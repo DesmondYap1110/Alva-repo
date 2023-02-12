@@ -1,0 +1,13 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^dashboard/service-package?$ /dashboard/service-package.php [NC,L]
+RewriteRule ^dashboard/service-tint-edit?$ /dashboard/service-tint-edit.php [NC,L]
+RewriteRule ^dashboard/service-coat-edit?$ /dashboard/service-coat-edit.php [NC,L]
+RewriteRule ^dashboard/service-paint-edit?$ /dashboard/service-paint-edit.php [NC,L]
+RewriteRule ^dashboard/service-wrap-edit?$ /dashboard/service-wrap-edit.php [NC,L]
+RewriteRule ^dashboard/service-aircond-edit?$ /dashboard/service-aircond-edit.php [NC,L]
+RewriteRule ^dashboard/outlet-setup-cse?$ /dashboard/outlet-setup-cse.php [NC,L]
+RewriteRule ^dashboard/outlet-setup-cse-edit?$ /dashboard/outlet-setup-cse-edit.php [NC,L]
